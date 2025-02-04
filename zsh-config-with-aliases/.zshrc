@@ -116,7 +116,7 @@ alias reload="exec zsh"
 alias myip="curl ifconfig.me"
 
 alias status="git status"
-alias dev="npm run dev"
+alias dev="cls && npm run dev"
 
 function push() {
   local msg="$*"
