@@ -1,6 +1,15 @@
 # Handy Scripts
 
-This repository contains a collection of handy scripts for various purposes. Each script is designed to solve a specific problem or automate a particular task. Below is an overview of the scripts included in this repository, along with their purposes, usage instructions, installation instructions, prerequisites, and necessary dependencies.
+This repository contains a collection of handy scripts for various purposes. Each script is designed to solve a specific problem or automate a particular task.
+
+## Table of Contents
+- Scripts Overview
+  - Image Conversion Script
+  - LeetCode Challenge Scaffold Script
+  - Next.js Essentials Scaffold Script
+  - Code Analyzer Scripts
+- Contributing
+- License
 
 ## Scripts Overview
 
@@ -74,3 +83,55 @@ node scaffold.js
 #### Dependencies
 - react-slick (optional, for Carousel component)
 - slick-carousel (optional, for Carousel component)
+
+### 4. Code Analyzer Scripts (analyze-code)
+
+#### Purpose
+This directory contains scripts for analyzing code structures, interfaces, and components across different files. It includes a main analyzer script and a token counter utility.
+
+#### Scripts
+- `analyze_code.py`: Main script for code analysis and structure visualization
+- `token_counter.py`: Utility for counting tokens in code files
+
+#### Usage Instructions
+1. Run the analyzer script, providing the path to the codebase you want to analyze:
+
+```bash
+python analyze_code.py /path/to/codebase
+```
+
+2. For token counting specifically:
+
+```bash
+python token_counter.py /path/to/file
+```
+
+#### Installation Instructions
+1. Ensure you have Python installed on your system.
+2. Install the required dependencies:
+
+```bash
+pip install -r analyze-code/requirements.txt
+```
+
+#### Prerequisites
+- Python 3.6+
+
+#### Dependencies
+- Various Python libraries for code parsing and analysis
+
+## Contributing
+
+Contributions are welcome! If you have a script that you'd like to add to this collection, please follow these steps:
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/amazing-script`)
+3. Add your script to the appropriate directory
+4. Update the README.md to include your script following the established format
+5. Commit your changes (`git commit -m 'Add amazing script'`)
+6. Push to the branch (`git push origin feature/amazing-script`)
+7. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
