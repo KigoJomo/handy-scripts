@@ -1,10 +1,10 @@
 import os
 
 # Define the directory to search and the output file
-directory_to_search = "/home/roci/Athena/GitHub/qa-qe-fullstack/assignments/express/library"
+directory_to_search = "/home/roci/Athena/GitHub/qa-qe-fullstack/assignments/express/todo_app/todo-app"
 
 # Define the output file name
-output_file = "output.md"
+output_file = "output.txt"
 
 # Define the file extensions to include
 valid_extensions = {".ts", ".tsx", ".js", ".jsx", ".css", ".d.ts", ".json", ".html"}
@@ -15,6 +15,7 @@ excluded_dirs = {
   ".git",
   ".venv",
   ".vscode",
+  ".angular",
   "venv",
   "dist",
   "build",
@@ -31,8 +32,10 @@ excluded_files = {
   "jsonconfig.json",
   "package-lock.json",
   ".eslintrc.json",
-  # "tsconfig.json",
-  # "package.json",
+  "tsconfig.json",
+  "tsconfig.app.json",
+  "angular.json",
+  "package.json",
   "package-lock.json",
   "globals.css",
   "output.css",
@@ -42,6 +45,7 @@ excluded_files = {
   "rough.json",
   "rough.md",
   "rough.txt",
+  ".editorconfig",
 }
 
 # Open the output file for writing

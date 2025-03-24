@@ -19,7 +19,6 @@ def count_tokens(file_path, encoding_name="cl100k_base"):
     tokens = encoding.encode(text)
     return len(tokens)
 
-# Replace './output.md' with the path to your file
-file_path = "./output.md"
+file_path = "./output.txt"
 token_count = count_tokens(file_path)
 print(f"File: {file_path} \nToken Count: {token_count}")

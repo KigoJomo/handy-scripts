@@ -28,3 +28,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+output.md
+code.txt
+output.txt
