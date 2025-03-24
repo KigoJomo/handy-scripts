@@ -1,7 +1,7 @@
 import os
 
 # Define the directory to search and the output file
-directory_to_search = "/home/roci/Athena/GitHub/qa-qe-fullstack/assignments/express/todo_app/todo-app"
+directory_to_search = "/path/to/your/project"
 
 # Define the output file name
 output_file = "output.txt"
@@ -78,4 +78,4 @@ with open(output_file, "w", encoding="utf-8") as outfile:
         # Add a separator between files
         outfile.write("\n\n---\n\n")
 
-print(f"All code has been written to {output_file}")
+print(f"All code has been written to {output_file} :-)")
