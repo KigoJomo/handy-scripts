@@ -97,13 +97,13 @@ This directory contains scripts for analyzing code structures, interfaces, and c
 1. Run the analyzer script, providing the path to the codebase you want to analyze:
 
 ```bash
-python analyze_code.py /path/to/codebase
+python analyze_code.py
 ```
 
 2. For token counting specifically:
 
 ```bash
-python token_counter.py /path/to/file
+python token_counter.py
 ```
 
 #### Installation Instructions
@@ -135,3 +135,13 @@ Contributions are welcome! If you have a script that you'd like to add to this c
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Found a bug? Have a cool script to contribute? Or just want to say hi?
+
+You can reach out through:
+- ✉️ Email: kigojomo@gmail.com
+- 🌐 Website: [jomokigo.vercel.app](https://jomokigo.vercel.app)
+
+I'm always up for a collaboration! Drop a line anytime :-)
